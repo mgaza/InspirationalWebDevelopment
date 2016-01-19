@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>More in CSS</title>
+	<style>
+		body
+		{
+			height: 1200px;
+		}
+		div
+		{
+			width:200px;
+			height: 200px;
+			float:left;
+		}
+		#blueBox
+		{
+			background: blue;
+			position: relative;
+		}
+		#greenBox
+		{
+			background: green;
+		}
+		#redBox
+		{
+			background: red;
+			position: static;		
+		}
+		#innerDiv
+		{
+			width: 100px;
+			height: 100px;
+			background: #000;
+			position: absolute;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+<div id="blueBox">
+	<div id="innerDiv"></div>
+</div>
+<div id="greenBox"></div>
+<div id="redBox"></div>
+</body>
+</html>
